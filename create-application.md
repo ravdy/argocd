@@ -22,7 +22,7 @@
              name: guestbook-ui
              ports:
                - containerPort: 80
-  ```
+   ```
 3. Create Service apiVersion: v1
    ```bash
    apiVersion: v1
