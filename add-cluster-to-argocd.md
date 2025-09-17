@@ -1,8 +1,8 @@
-1. Get the eks cluster info 
+1. Set argocd cluster as current context 
    ```bash
    aws eks --region us-east-1 update-kubeconfig --name argocd
    ```
-2. Set the cluster contenxt
+2. See the current context
    ```bash
    kubectl config current-context
    ```
